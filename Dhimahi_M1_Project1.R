@@ -20,8 +20,8 @@ icSales <- data.frame(sales, temperature)
 str(icSales)
 summary(icSales)
 
-x <- c("Tom", "Dick", "Harry")
-x
+names <- c("Tom", "Dick", "Harry")
+names
 y <- matrix(1:10, nrow = 5, ncol = 2)
 y
 
