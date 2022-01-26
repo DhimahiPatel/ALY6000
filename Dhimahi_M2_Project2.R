@@ -67,10 +67,3 @@ plot(age ~ fl, data = sampel1, xlim=c(0,500), ylim=c(0,15), las= 2, pch=pchs[sam
      ylab = "Age (yrs)", xlab ="Fork Length (mm)", main="Plot 6: :Legend Overlay")
 abline(lm(age ~ fl, data= sample1))
 legend(1,14,legend = c("1977-80", "1997-01"), col=c("red", "gray60"), pch=c(3,4), bty="n")
-
-
-
-
-
-
-
