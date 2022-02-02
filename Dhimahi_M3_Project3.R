@@ -60,7 +60,7 @@ u <- data.frame(cSpecPct)
 str(u)
 
 
-#Barplot os cSpec
+#Barplot of cSpec
 barplot(cSpec$Freq, main= "Fish Count", ylab = "COUNTS", col="lightgreen", las=2, cex.names = 0.60, 
         names.arg = c("Black Crappie", "Bluegill", "Bluntnose Minnow", "Iowa Darter", " Largemouth Bass",
                       "Pumpkinseed", "Tadpole Madtom", "Yellow Perch"))
